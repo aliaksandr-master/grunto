@@ -28,8 +28,9 @@
     "test": "grunt test"
   },
   "dependencies": {
-     "lodash": "latest",
-     "load-grunt-tasks": "latest"
+    "load-grunt-tasks": "latest",
+    "lodash": "latest",
+    "time-grunt": "^1.0.0"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "^0.9.2",
