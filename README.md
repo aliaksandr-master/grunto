@@ -1,3 +1,9 @@
+[![npm](http://img.shields.io/npm/v/grunto.svg?style=flat-square)](https://www.npmjs.com/package/grunto)
+[![npm](http://img.shields.io/npm/l/grunto.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![Dependency Status](https://david-dm.org/aliaksandr-pasynkau/grunto.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/grunto)
+[![devDependency Status](https://david-dm.org/aliaksandr-pasynkau/grunto/dev-status.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/grunto#info=devDependencies)
+[![Build Status](https://travis-ci.org/aliaksandr-pasynkau/grunto.svg?branch=master&style=flat-square)](https://travis-ci.org/aliaksandr-pasynkau/grunto)
+
 #Grunto
 > Organize Your Grunt config
 
