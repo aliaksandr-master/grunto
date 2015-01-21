@@ -94,7 +94,6 @@ First all tasks from `grunt/client/compile/default.js` and then all tasks from `
 Predictable, you must admit.
 
 We aggreed that all all tasks named `**/default.js`, fire all tasks in it's folder in the right order.
-Мы не настаиваем, это решение принимать каждой команде в своем проекте. Нам было это удобно.
 We don't insist on that so it's up to your team but it worked fine for us.
 
 ##Getting Started
