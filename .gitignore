@@ -12,3 +12,4 @@
 
 # package managers
 /node_modules/
+lib-cov

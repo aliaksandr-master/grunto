@@ -5,14 +5,16 @@ module.exports = function (grunt, options) {
 	// simple run
 	this.jshint([
 		'**/*.js',
-		'!node_modules/**/*'
+		'!lib-cov/**/*.js',
+		'!node_modules/**/*.js'
 	]);
 
 	// eq with previous "jshint"
 	this.grunto('jshint', function () {
 		return [
 			'**/*.js',
-			'!node_modules/**/*'
+			'!lib-cov/**/*.js',
+			'!node_modules/**/*.js'
 		];
 	});
 
