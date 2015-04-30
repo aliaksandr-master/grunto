@@ -3,7 +3,7 @@
   "description": "Organize your grunt config!",
   "version": "1.3.8",
   "homepage": "https://github.com/aliaksandr-pasynkau/grunto",
-  "main": "lib/grunto.js",
+  "main": "lib/index.js",
   "author": {
     "name": "Aliaksandr Pasynkau",
     "email": "alxe.master@gmail.com"

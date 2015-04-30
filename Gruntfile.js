@@ -6,7 +6,7 @@
  * Licensed under the MIT license.
  */
 
-module.exports = require('./lib/grunto')(function(grunt) {
+module.exports = require('./lib')(function(grunt) {
 	'use strict';
 
 	this.context({
@@ -25,7 +25,7 @@ module.exports = require('./lib/grunto')(function(grunt) {
 	return {
 		jshint: {
 			options: {
-				jshintrc: '.jshintrc'
+				jshintrc: true
 			}
 		}
 	};
