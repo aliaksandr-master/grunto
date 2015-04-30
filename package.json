@@ -16,6 +16,12 @@
     "url": "https://github.com/aliaksandr-pasynkau/grunto/issues"
   },
   "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/aliaksandr-pasynkau/grunto/blob/master/LICENSE-MIT"
+    }
+  ],
   "scripts": {
     "test": "node_modules/.bin/grunt check"
   },
