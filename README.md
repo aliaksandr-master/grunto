@@ -3,6 +3,7 @@
 [![Dependency Status](https://david-dm.org/aliaksandr-pasynkau/grunto.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/grunto)
 [![devDependency Status](https://david-dm.org/aliaksandr-pasynkau/grunto/dev-status.svg?style=flat-square)](https://david-dm.org/aliaksandr-pasynkau/grunto#info=devDependencies)
 [![Build Status](https://travis-ci.org/aliaksandr-pasynkau/grunto.svg?branch=master&style=flat-square)](https://travis-ci.org/aliaksandr-pasynkau/grunto)
+[![Coverage Status](https://img.shields.io/coveralls/aliaksandr-pasynkau/grunto.svg?style=flat-square)](https://coveralls.io/r/aliaksandr-pasynkau/grunto?branch=master)
 
 #Grunto
 > Organize Your Grunt config
