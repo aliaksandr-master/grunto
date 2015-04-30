@@ -1,19 +1,21 @@
-"use strict";
+'use strict';
 
 module.exports = function (grunt, options) {
 
 	// simple run
-	this.jshint([
+	this.eslint([
 		'**/*.js',
 		'!lib-cov/**/*.js',
+		'!tests/_lib/**/*.js',
 		'!node_modules/**/*.js'
 	]);
 
 	// eq with previous "jshint"
-	this.grunto('jshint', function () {
+	this.grunto('eslint', function () {
 		return [
 			'**/*.js',
 			'!lib-cov/**/*.js',
+			'!tests/_lib/**/*.js',
 			'!node_modules/**/*.js'
 		];
 	});
@@ -21,5 +23,4 @@ module.exports = function (grunt, options) {
 	this.grunto(function () {
 		return 'done!!!';
 	});
-
 };

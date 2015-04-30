@@ -1,14 +1,6 @@
-/*
- * grunto
- * https://github.com/aliaksandr-pasynkau/grunto
- *
- * Copyright (c) 2014 Aliaksandr Pasynkau
- * Licensed under the MIT license.
- */
+'use strict';
 
-module.exports = require('./lib')(function(grunt) {
-	'use strict';
-
+module.exports = require('./lib')(function (grunt) {
 	this.context({
 		CWD: process.cwd()
 	});
@@ -21,12 +13,4 @@ module.exports = require('./lib')(function(grunt) {
 			'!**/_*/**/*'
 		]
 	}]);
-
-	return {
-		jshint: {
-			options: {
-				jshintrc: true
-			}
-		}
-	};
 });

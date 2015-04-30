@@ -1,24 +1,23 @@
 'use strict';
 
-module.exports['test'] = function (test) {
+exports['base import'] = function (test) {
 	var grunt = require('grunt');
-	var gruntoFile = require('./_lib')(function(grunt) {
-		'use strict';
-
-		grunt.loadNpmTasks('jshint');
+	var init = function (grunt) {
 
 		this.context({
 			CWD: process.cwd()
 		});
 
-		this.scan([{
-			cwd: 'grunt/',
-			src: [
-				'**/*.js',
-				'!**/_*',
-				'!**/_*/**/*'
-			]
-		}]);
+		this.scan([
+			{
+				cwd: 'grunt/',
+				src: [
+					'**/*.js',
+					'!**/_*',
+					'!**/_*/**/*'
+				]
+			}
+		]);
 
 		return {
 			jshint: {
@@ -27,8 +26,10 @@ module.exports['test'] = function (test) {
 				}
 			}
 		};
-	}, {
-		autoload: false,
+	};
+
+	var gruntoFile = require('./_lib')(init, {
+		autoload: true,
 		timeMetric: false
 	});
 
