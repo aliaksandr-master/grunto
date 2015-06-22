@@ -6,6 +6,8 @@
 [![Coverage Status](https://img.shields.io/coveralls/aliaksandr-pasynkau/grunto.svg?style=flat-square)](https://coveralls.io/r/aliaksandr-pasynkau/grunto?branch=master)
 
 #Grunto
+
+[![Join the chat at https://gitter.im/aliaksandr-pasynkau/grunto](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/aliaksandr-pasynkau/grunto?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > Organize Your Grunt config
 
 This plugin requires Grunt `~0.4.0`
