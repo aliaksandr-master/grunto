@@ -21,7 +21,7 @@ $ npm install grunto --save-dev
 
 ## Expanding the capabilities of Grunt. Maintenance of large config fles. 
 
-You can continue as you used to adding syntactical sugar to boring unmainteined Grunt canfigs. 
+You can continue as you used to adding syntactical sugar to boring unmainteined Grunt configs. 
 
 1. You can cut grunt build projects into litte pieces simplifying the maintenance.
 2. You can add runtime generation of task configs. That can help in some complex cases (e.g. with r.js).
@@ -96,7 +96,7 @@ $ grunt client/compile client/minify
 First all tasks from `grunt/client/compile/default.js` and then all tasks from `grunt/client/minify/default.js` will be fired. 
 Predictable, you must admit.
 
-We aggreed that all all tasks named `**/default.js`, fire all tasks in it's folder in the right order.
+We aggreed that all tasks named `**/default.js`, fire all tasks in it's folder in the right order.
 We don't insist on that so it's up to your team but it worked fine for us.
 
 ##Getting Started
