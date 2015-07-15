@@ -11,7 +11,7 @@ module.exports = function (grunt, options) {
 	]);
 
 	// eq with previous "jshint"
-	this.grunto('eslint', function () {
+	this.grunto('eslint', 'param', function () {
 		return [
 			'**/*.js',
 			'!lib-cov/**/*.js',
@@ -23,4 +23,8 @@ module.exports = function (grunt, options) {
 	this.grunto(function () {
 		return 'done!!!';
 	});
+
+	this.include([
+		'eslint:hello'
+	]);
 };
