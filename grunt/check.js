@@ -11,7 +11,7 @@ module.exports = function (grunt, options) {
 	]);
 
 	// eq with previous "jshint"
-	this.grunto('eslint', function () {
+	this.$task('eslint', function () {
 		return [
 			'**/*.js',
 			'!lib-cov/**/*.js',
@@ -20,7 +20,14 @@ module.exports = function (grunt, options) {
 		];
 	});
 
-	this.grunto(function () {
+	this.$task(function () {
 		return 'done!!!';
 	});
+
+	this.$run('included-task');
+
+	this.$run([
+		'included-task',
+		'./included-task'
+	]);
 };
