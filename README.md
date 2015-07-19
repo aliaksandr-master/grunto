@@ -229,14 +229,14 @@ module.exports = function (grunt, contextOptions) {
 		])
 
 		// 3. run function on this runtime moment
-		.grunto(function () {
+		.$task(function () {
 			console.log('log in this moment');
 
 			// this task is simple, has all possibilities and context, that has grunt task (see http://gruntjs.com/api/inside-tasks)
 		})
 
 		// 4. run copy task with params, that was compiled after execute function in runtime
-		.grunto('copy', function () {
+		.$task('copy', function () {
 			return {
 				options: {},
 				files: [{
@@ -249,7 +249,7 @@ module.exports = function (grunt, contextOptions) {
 		})
 
 		// 5. run "copy:build/styles/nameOfTarget" task with params, that was compiled after execute function in runtime
-		.grunto('copy', 'nameOfTarget', function () {
+		.$task('copy', 'nameOfTarget', function () {
 			return {
 				options: {},
 				files: [{
@@ -262,7 +262,7 @@ module.exports = function (grunt, contextOptions) {
 		})
 
 		// run other tasks (in other dirs)
-		.include([
+		.$run([
 			'copy:prefix/nameForTask', // 5. run task "copy" from dir "grunt/prefix", named "nameForTask"
 			'alias/name', // 6. run task with name 'alias/name', from path "grunt/alias/name.js" or "grunt/alias/name/default.js"
 
