@@ -13,4 +13,14 @@ module.exports = require('./lib')(function (grunt) {
 			'!**/_*/**/*'
 		]
 	}]);
+
+	return {
+		eslint: {
+			hello: {
+				src: [
+					'lib/**/*.js'
+				]
+			}
+		}
+	};
 });

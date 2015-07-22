@@ -11,7 +11,7 @@ module.exports = function (grunt, options) {
 	]);
 
 	// eq with previous "jshint"
-	this.$task('eslint', function () {
+	this.$task('eslint', 'param', function () {
 		return [
 			'**/*.js',
 			'!lib-cov/**/*.js',
@@ -24,6 +24,9 @@ module.exports = function (grunt, options) {
 		return 'done!!!';
 	});
 
+	this.include([
+		'eslint:hello'
+	]);
 	this.$run('included-task');
 
 	this.$run([
