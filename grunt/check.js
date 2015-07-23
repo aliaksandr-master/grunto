@@ -24,9 +24,10 @@ module.exports = function (grunt, options) {
 		return 'done!!!';
 	});
 
-	this.include([
+	this.$run([
 		'eslint:hello'
 	]);
+
 	this.$run('included-task');
 
 	this.$run([
