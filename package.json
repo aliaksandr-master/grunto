@@ -1,7 +1,7 @@
 {
   "name": "grunto",
   "description": "Organize your grunt config!",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "homepage": "https://github.com/aliaksandr-pasynkau/grunto",
   "main": "lib/index.js",
   "author": {
