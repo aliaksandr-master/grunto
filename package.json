@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "load-grunt-tasks": "^3.1.0",
-    "lodash": "^3.7.0",
+    "lodash": "^3.10.1",
     "time-grunt": "^1.1.1"
   },
   "devDependencies": {
