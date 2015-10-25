@@ -1,0 +1,19 @@
+# ide and os files
+/.idea/
+*.idea/
+/npm-debug.log
+*.DS_Store
+*.desktop
+*.thumb
+*/.~*
+*/~*
+*/*~
+*.sublime*
+
+# project files
+grunt/
+tests/
+.eslintrc
+.gitignore
+npm-debug.log
+.travis.yml
