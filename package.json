@@ -36,9 +36,6 @@
     "grunt-eslint": "^15.0.0",
     "nodeunit": "^0.9.1"
   },
-  "peerDependencies": {
-    "grunt": "~0.4.5"
-  },
   "keywords": [
     "grunt",
     "config",
