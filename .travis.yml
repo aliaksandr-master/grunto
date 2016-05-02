@@ -1,13 +1,10 @@
 language: node_js
 node_js:
   - "stable"
-  - "unstable"
-  - "iojs"
 before_script:
-  - npm i jscoverage coveralls grunt-cli
+  - npm install jscoverage coveralls grunt-cli
 after_script:
-  - ./node_modules/.bin/jscoverage lib
-  - GRUNTO_COV=1 ./node_modules/.bin/nodeunit --reporter=lcov tests/ | ./node_modules/.bin/coveralls
+  - ./node_modules/.bin/jscoverage lib && GRUNTO_COV=1 ./node_modules/.bin/nodeunit --reporter=lcov tests/ | ./node_modules/.bin/coveralls
 notifications:
   email:
     on_success: never
