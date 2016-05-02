@@ -4,6 +4,6 @@ module.exports = function (grunt) {
 
 	this
 		.$task(function () {
-			console.log('!!! included task');
+			console.log('!!! included task'); // eslint-disable-line
 		});
 };

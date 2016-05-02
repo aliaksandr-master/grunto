@@ -1,7 +1,10 @@
 'use strict';
 
-module.exports = require('./lib')(function (grunt) {
-	require('jit-grunt')(grunt);
+var grunto = require('./lib');
+var jitGrunt = require('jit-grunt');
+
+module.exports = grunto(function (grunt) {
+	jitGrunt(grunt);
 
 	this.addTaskNames([
 		'eslint'
